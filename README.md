@@ -4,7 +4,7 @@ Zip file containing rewards-solution.
 #### Zip file contents:
 *	The zip file contains the source code and executable jar and this ‘ReadMe.doc’
 *	The actual source code is under ‘Rewards’ folder.
-*	Dressing-1.0-SNAPSHOT.jar (Built jar file)
+*	Dressing-1.0-SNAPSHOT-jar-with-dependencies.jar
 
 ### How to Build :
 •	To build from the source code. Unzip the file an navigate to the ‘Rewards’ folder.
@@ -15,27 +15,27 @@ o	The jar file should have been created under ‘target’ folder.
 
 Following commands can be run.
 ```script
-java -jar Dressing-1.0-SNAPSHOT.jar HOT 8, 6, 4, 2, 1, 7
+java -jar Dressing-1.0-SNAPSHOT-jar-with-dependencies.jar HOT 8, 6, 4, 2, 1, 7
 ```
 •	Output: Removing PJs, shorts, shirt, sunglasses, sandals, leaving house
 ```script
-java –jar Dressing-1.0-SNAPSHOT.jar COLD 8, 6, 3, 4, 2, 5, 1, 7
+java –jar Dressing-1.0-SNAPSHOT-jar-with-dependencies.jar COLD 8, 6, 3, 4, 2, 5, 1, 7
 ```
 •	Output: Removing PJs, pants, socks, shirt, hat, jacket, boots, leaving house 
 ```script
-java -jar target/Dressing-1.0-SNAPSHOT.jar HOT 8, 6, 6
+java -jar target/Dressing-1.0-SNAPSHOT-jar-with-dependencies.jar HOT 8, 6, 6
 ```
 •	Output: Removing PJs, shorts, fail 
 ```script
-java -jar target/Dressing-1.0-SNAPSHOT.jar HOT 8, 6, 3
+java -jar target/Dressing-1.0-SNAPSHOT-jar-with-dependencies.jar HOT 8, 6, 3
 ```
 •	Output: Removing PJs, shorts, fail 
 ```script
-java -jar target/Dressing-1.0-SNAPSHOT.jar COLD 8, 6, 3, 4, 2, 5, 7
+java -jar target/Dressing-1.0-SNAPSHOT-jar-with-dependencies.jar COLD 8, 6, 3, 4, 2, 5, 7
 ```
 •	Output: Removing PJs, pants, socks, shirt, hat, jacket, fail 
 ```script
-java -jar target/Dressing-1.0-SNAPSHOT.jar COLD 6
+java -jar target/Dressing-1.0-SNAPSHOT-jar-with-dependencies.jar COLD 6
 ```
 Output: fail 
 
