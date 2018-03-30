@@ -40,3 +40,4 @@ java -jar target/Dressing-1.0-SNAPSHOT-jar-with-dependencies.jar COLD 6
 Output: fail 
 
 * The more information can be found in Readme.docx file with in zip file.
+The project uses third party library (juul) that provided extended reduced operation (foldLeft is used in this project) that is not available in Java 8.
